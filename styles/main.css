@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.navbar,
+.nav {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .navbar-link,
+.nav-dark .navbar-nav .navbar-link, .navbar-dark
+.nav-nav .navbar-link,
+.nav-dark
+.nav-nav .navbar-link, .navbar-dark .navbar-nav
+.nav-link,
+.nav-dark .navbar-nav
+.nav-link, .navbar-dark
+.nav-nav
+.nav-link,
+.nav-dark
+.nav-nav
+.nav-link {
+  color: #fff;
+  padding-left: 25px;
+}
+
+.navbar-dark .navbar-nav .navbar-link:active, .navbar-dark .navbar-nav .navbar-link:hover,
+.nav-dark .navbar-nav .navbar-link:active,
+.nav-dark .navbar-nav .navbar-link:hover, .navbar-dark
+.nav-nav .navbar-link:active, .navbar-dark
+.nav-nav .navbar-link:hover,
+.nav-dark
+.nav-nav .navbar-link:active,
+.nav-dark
+.nav-nav .navbar-link:hover, .navbar-dark .navbar-nav
+.nav-link:active, .navbar-dark .navbar-nav
+.nav-link:hover,
+.nav-dark .navbar-nav
+.nav-link:active,
+.nav-dark .navbar-nav
+.nav-link:hover, .navbar-dark
+.nav-nav
+.nav-link:active, .navbar-dark
+.nav-nav
+.nav-link:hover,
+.nav-dark
+.nav-nav
+.nav-link:active,
+.nav-dark
+.nav-nav
+.nav-link:hover {
+  color: #bb6f1e;
+}
+
+.presentation__content {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Dancing Script', cursive;
+}
+
+.presentation__content--text1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: black;
+}
+
+.presentation__content--text2 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #a0040c;
+}
+
+.presentation__content--text3 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #f8ff7b;
+}
+
+.about--text {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+.skills--listItems {
+  font-size: 16pt;
+}
+
+.card {
+  border: none;
+}
+
+.projects__cards {
+  width: 18rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: solid;
+  border-color: slategrey;
+  border-radius: 25%;
+  color: #00020a;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.projects__cards h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.projects__cards p {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 20%;
+}
+
+.projects__cards a {
+  margin-left: 30%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects__cards--robotics {
+  background-image: url(../images/robotics.jpg);
+}
+
+.projects__cards--web {
+  background-image: url(../images/robotics.jpg);
+}
+
+.projects__cards--tfg {
+  background-image: url(../images/robotics.jpg);
+}
+
+.projects__cards--tfm {
+  background-image: url(../images/robotics.jpg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=main.css.map */

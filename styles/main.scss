@@ -1,0 +1,12 @@
+@import "./block/navbar";
+@import "./block/presentation";
+@import "./block/about";
+@import "./block/skills";
+@import "./block/projects";
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //definir el comportamiento cuando el contenido desvorda la caja//
+    overflow-x: hidden;
+}
