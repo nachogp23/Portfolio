@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap");
 .navbar,
 .nav {
   font-family: "Fjalla One", sans-serif;
@@ -95,6 +96,11 @@
 
 .card {
   border: none;
+  background-color: #e9e9e9;
+}
+
+.card-title {
+  display: inline-block;
 }
 
 .projects__cards {
@@ -103,44 +109,107 @@
   background-repeat: no-repeat;
   background-position: center center;
   border: solid;
-  border-color: slategrey;
-  border-radius: 25%;
+  border-color: #af4c01;
+  border-radius: 15%;
   color: #00020a;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .projects__cards h5 {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: "Secular One", sans-s;
 }
 
 .projects__cards p {
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 18px;
   background-color: white;
-  border-radius: 20%;
+  border-radius: 5%;
 }
 
 .projects__cards a {
-  margin-left: 30%;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16pt;
+  color: #0612fd;
+  background-color: #e6e6e6;
+  border: solid #367cff;
+  border-radius: 40%;
+  padding: 3%;
 }
 
 .projects__cards--robotics {
   background-image: url(../images/robotics.jpg);
 }
 
+.projects__cards--robotics a {
+  margin-left: 24%;
+}
+
+.projects__cards--robotics h5 {
+  font-size: 17pt;
+}
+
 .projects__cards--web {
-  background-image: url(../images/robotics.jpg);
+  background-image: url(../images/web.jpg);
+}
+
+.projects__cards--web h5 {
+  background-color: #f0c26d;
+  font-size: 20pt;
+}
+
+.projects__cards--web p {
+  background-color: #f0c26d;
 }
 
 .projects__cards--tfg {
-  background-image: url(../images/robotics.jpg);
+  background-image: url(../images/TFG.jpg);
+}
+
+.projects__cards--tfg p {
+  background-color: #c4c4c4;
+}
+
+.projects__cards--tfg h5 {
+  font-size: 21pt;
 }
 
 .projects__cards--tfm {
-  background-image: url(../images/robotics.jpg);
+  background-image: url(../images/TFM.png);
+}
+
+.projects__cards--tfm h5 {
+  background-color: #ececec;
+  display: inline-block;
+  font-size: 21pt;
+}
+
+.projects__cards--tfm p {
+  background-color: #ececec;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__container {
+  width: 40%;
+  font-size: 30pt;
+}
+
+.btn-primary {
+  font-size: 18pt;
 }
 
 body {
@@ -149,5 +218,6 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
+  background-color: #e9e9e9;
 }
 /*# sourceMappingURL=main.css.map */

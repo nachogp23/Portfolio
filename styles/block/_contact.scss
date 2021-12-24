@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__container {
+        width: 40%;
+        font-size: 30pt;
+    }
+}
+
+.btn {
+    &-primary {
+        font-size: 18pt;
+    }
+}

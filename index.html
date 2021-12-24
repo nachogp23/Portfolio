@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact me</a>
+                        <a class="nav-link" href="#contact">Contact me</a>
                     </li>
                 </ul>
             </div>
@@ -131,58 +131,149 @@
 
     <!--------------------PROJECTS START------------------------->
     <section id="projects">
-        <div class="container post-heading text-center mt-5">
+        <div class="container post-heading text-center mt-5 mb-5">
             <h2 class="display-4 font-weigh-bold">Projects</h2>
             <hr class="w-50 mx-auto pb-1" />
         </div>
-        <div class="row mb-5">
-            <div class="card col-lg-3 ">
-                <div class=" mt-3 card-body  projects__cards projects__cards--robotics">
-                    <h5 class="card-title">Robotics Projects</h5>
-                    <p class="card-text">
-                        In the repository linked you will find some of my projects in the field of robotics and similar
-                    </p>
-                    <a href="https://github.com/nachogp23/git-session" class="card-lin">Click me!</a>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 projects">
+                <div class="card">
+                    <div class="mx-auto mt-auto card-body  projects__cards projects__cards--robotics">
+                        <h5 class="card-title">Robotics Projects</h5>
+                        <p class="card-text">
+                            In the repository linked you will find some of my projects in the field of robotics and similar
+                        </p>
+                        <a href="https://github.com/nachogo23?tab=repositories" class="card-link">Click me!</a>
+                    </div>
                 </div>
             </div>
-            <div class="card col-lg-3">
-                <div class=" mt-3 card-body  projects__cards projects__cards--web">
-                    <h5 class="card-title">Web Projects</h5>
-                    <p class="card-text">
-                        In the repository linked you will find some of my projects in the field of robotics and similar
-                    </p>
-                    <a href="https://github.com/nachogp23/git-session" class="card-lin">Click me!</a>
-                </div>
-            </div>
-            <div class="card col-lg-3">
-                <div class=" mt-3 card-body  projects__cards projects__cards--tfg">
-                    <h5 class="card-title">TFG</h5>
-                    <p class="card-text">
-                        In the repository linked you will find some of my projects in the field of robotics and similar
-                    </p>
-                    <a href="https://github.com/nachogp23/git-session" class="card-lin">Click me!</a>
-                </div>
-            </div>
-            <div class="card col-lg-3">
-                <div class=" mt-3 card-body  projects__cards projects__cards--tfm">
-                    <h5 class="card-title">TFM</h5>
-                    <p class="card-text">
-                        In the repository linked you will find some of my projects in the field of robotics and similar
-                    </p>
-                    <a href="https://github.com/nachogp23/git-session" class="card-lin">Click me!</a>
-                </div>
-            </div>
-        </div>
 
+            <div class="col-lg-3 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <div class="mx-auto mt-auto card-body  projects__cards projects__cards--web text-center">
+                        <h5 class="card-title">Web Projects</h5>
+                        <p class="card-text">
+                            In the repository linked you will find some of my projects in the field of robotics and similar
+                        </p>
+                        <a href="https://github.com/nachogp23?tab=repositories" class="card-lin">Click me!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <div class="mx-auto mt-auto card-body  projects__cards projects__cards--tfg text-center">
+                        <h5 class="card-title">TFG</h5>
+                        <p class="card-text">
+                            In the repository linked you will find some of my projects in the field of robotics and similar
+                        </p>
+                        <a href="./docs/tfg.pdf" class="card-lin">Click me!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 pb-5">
+                <div class="card">
+                    <div class="mx-auto mt-auto card-body  projects__cards projects__cards--tfm text-center">
+                        <h5 class="card-title align-self-center">TFM</h5>
+                        <p class="card-text">
+                            In the repository linked you will find some of my projects in the field of robotics and similar
+                        </p>
+                        <a href="./docs/tfm.pdf" class="card-lin">Click me!</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
     <!--------------------PROJECTS END-------------------------->
 
     <!--------------------CONTACT START------------------------->
-    <div id="contact" class=""></div>
+    <section id="contact">
+        <div class="container post-heading text-center mt-5 mb-5">
+            <h2 class="display-4 font-weigh-bold">Contact me!</h2>
+            <hr class="w-50 mx-auto pb-1" />
+        </div>
+        <div class="form mb-5">
+            <div class="form__container">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="fname">Complete name</label>
+                        <input class="form-control" type="text" id="fname" name="user_fname" placeholder="Enter your name and surname" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="fname">Phone number</label>
+                        <input class="form-control" type="text" id="fname" name="user_fname" placeholder="Enter your phone number" />
+                    </div>
+                    <div class="form-group">
+                        <label for="coments">How can I help you?</label>
+                        <textarea id="coments" name="observaciones" cols="40"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
 
     <!--------------------CONTACT END-------------------------->
+
+    <!------------- FOOTER START -------------->
+
+    <footer class="text-center text-lg-start bg-light text-muted pt-1">
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Nacho González
+                        </h6>
+                        <p>
+                            This web site has been build using bootstrap and scss combined with BEM metodology
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    >
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home"></i> Major de Sarrià nº23, Barcelona</p>
+                        <p>
+                            <i class="fas fa-envelope"></i> gonzalez.portillo@bootcamp-upgrade.com
+                        </p>
+                        <p><i class="fas fa-phone"></i> + 34 622 52 67 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright: Nacho González Portillo
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!------------- FOOTER END -------------->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>

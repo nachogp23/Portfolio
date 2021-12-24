@@ -3,10 +3,12 @@
 @import "./block/about";
 @import "./block/skills";
 @import "./block/projects";
+@import "./block/contact";
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     //definir el comportamiento cuando el contenido desvorda la caja//
     overflow-x: hidden;
+    background-color: rgb(233, 233, 233);
 }
