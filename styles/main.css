@@ -59,12 +59,20 @@
   color: #bb6f1e;
 }
 
+@media screen and (max-width: 767px) {
+  .navbar,
+  .nav {
+    letter-spacing: 0.1rem;
+    padding: 10px 0;
+  }
+}
+
 .presentation__content {
   position: absolute;
   top: 25%;
   width: 100%;
   max-width: 100%;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .presentation__content--text1 {
@@ -83,6 +91,30 @@
   font-size: 3rem;
   font-weight: 500;
   color: #f8ff7b;
+}
+
+@media screen and (max-width: 767px) {
+  .presentation__content--text1 {
+    font-size: 3rem;
+  }
+  .presentation__content--text2 {
+    font-size: 4rem;
+  }
+  .presentation__content--text3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .presentation__content--text1 {
+    font-size: 2rem;
+  }
+  .presentation__content--text2 {
+    font-size: 3rem;
+  }
+  .presentation__content--text3 {
+    font-size: 0.8rem;
+  }
 }
 
 .about--text {

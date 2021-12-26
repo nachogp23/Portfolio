@@ -16,4 +16,17 @@
             color: #bb6f1e;
         }
     }
+    @include tablet {
+        letter-spacing: 0.1rem;
+        padding: 10px 0;
+    }
 }
+
+// @include tablet {
+//     .navbar,
+//     .nav {
+//         letter-spacing: 0.1rem;
+//         padding: 10px 0;
+//         color: aqua;
+//     }
+// }
