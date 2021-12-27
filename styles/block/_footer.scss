@@ -1,0 +1,11 @@
+.footer {
+    &__contact {
+        &--email {
+            width: max-content;
+        }
+        &--address {
+            height: 1.2rem;
+            width: auto;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap');
 .card {
+    width: 100%;
     border: none;
     background-color: rgb(233, 233, 233);
     &-title {
@@ -9,8 +10,12 @@
 }
 
 .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__cards {
-        width: 18rem;
+        width: 26rem;
+        height: 20rem;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -31,6 +36,7 @@
             font-size: 18px;
             background-color: rgb(255, 255, 255);
             border-radius: 5%;
+            margin-bottom: 3rem;
             //width: 80%;
         }
         a {
@@ -43,6 +49,7 @@
             border: solid rgb(54, 124, 255);
             border-radius: 40%;
             padding: 3%;
+            margin-top: 3rem;
         }
         &--robotics {
             background-image: url(../images/robotics.jpg);
@@ -52,35 +59,40 @@
             h5 {
                 font-size: 17pt;
             }
+            p {
+                background-color: rgba(255, 255, 255, 0.789);
+            }
         }
         &--web {
-            background-image: url(../images/web.jpg);
+            background-image: url(../images/web4.jpg);
             h5 {
-                background-color: rgb(240, 194, 109);
+                background-color: rgba(0, 0, 0, 0.068);
+                color: white;
                 font-size: 20pt;
             }
             p {
-                background-color: rgb(240, 194, 109);
+                background-color: rgba(0, 0, 0, 0.177);
+                color: white;
             }
         }
         &--tfg {
             background-image: url(../images/TFG.jpg);
             p {
-                background-color: rgb(196, 196, 196);
+                background-color: rgba(197, 197, 197, 0.85);
             }
             h5 {
                 font-size: 21pt;
             }
         }
         &--tfm {
-            background-image: url(../images/TFM.png);
+            background-image: url(../images/tfm2.png);
             h5 {
-                background-color: rgb(236, 236, 236);
+                background-color: rgb(255, 255, 255);
                 display: inline-block;
                 font-size: 21pt;
             }
             p {
-                background-color: rgb(236, 236, 236);
+                background-color: rgba(255, 255, 255, 0.932);
             }
         }
     }

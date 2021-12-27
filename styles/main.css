@@ -6,7 +6,7 @@
 .navbar,
 .nav {
   font-family: "Fjalla One", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -76,19 +76,19 @@
 }
 
 .presentation__content--text1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   color: black;
 }
 
 .presentation__content--text2 {
-  font-size: 7rem;
+  font-size: 8rem;
   font-weight: 700;
   color: #a0040c;
 }
 
 .presentation__content--text3 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 500;
   color: #f8ff7b;
 }
@@ -159,6 +159,7 @@
 }
 
 .card {
+  width: 100%;
   border: none;
   background-color: #e9e9e9;
 }
@@ -167,8 +168,21 @@
   display: inline-block;
 }
 
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .projects__cards {
-  width: 18rem;
+  width: 26rem;
+  height: 20rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -191,6 +205,7 @@
   font-size: 18px;
   background-color: white;
   border-radius: 5%;
+  margin-bottom: 3rem;
 }
 
 .projects__cards a {
@@ -202,6 +217,7 @@
   border: solid #367cff;
   border-radius: 40%;
   padding: 3%;
+  margin-top: 3rem;
 }
 
 .projects__cards--robotics {
@@ -216,17 +232,23 @@
   font-size: 17pt;
 }
 
+.projects__cards--robotics p {
+  background-color: rgba(255, 255, 255, 0.789);
+}
+
 .projects__cards--web {
-  background-image: url(../images/web.jpg);
+  background-image: url(../images/web4.jpg);
 }
 
 .projects__cards--web h5 {
-  background-color: #f0c26d;
+  background-color: rgba(0, 0, 0, 0.068);
+  color: white;
   font-size: 20pt;
 }
 
 .projects__cards--web p {
-  background-color: #f0c26d;
+  background-color: rgba(0, 0, 0, 0.177);
+  color: white;
 }
 
 .projects__cards--tfg {
@@ -234,7 +256,7 @@
 }
 
 .projects__cards--tfg p {
-  background-color: #c4c4c4;
+  background-color: rgba(197, 197, 197, 0.85);
 }
 
 .projects__cards--tfg h5 {
@@ -242,17 +264,17 @@
 }
 
 .projects__cards--tfm {
-  background-image: url(../images/TFM.png);
+  background-image: url(../images/tfm2.png);
 }
 
 .projects__cards--tfm h5 {
-  background-color: #ececec;
+  background-color: white;
   display: inline-block;
   font-size: 21pt;
 }
 
 .projects__cards--tfm p {
-  background-color: #ececec;
+  background-color: rgba(255, 255, 255, 0.932);
 }
 
 .form {
@@ -288,6 +310,17 @@
 
 .btn-primary {
   font-size: 18pt;
+}
+
+.footer__contact--email {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.footer__contact--address {
+  height: 1.2rem;
+  width: auto;
 }
 
 body {
