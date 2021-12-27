@@ -24,6 +24,7 @@
     }
     @include tablet {
         &__content {
+            top: 15%;
             &--text1 {
                 font-size: 3rem;
             }
@@ -37,14 +38,15 @@
     }
     @include mobile {
         &__content {
+            top: 10%;
             &--text1 {
-                font-size: 2rem;
+                font-size: 3rem;
             }
             &--text2 {
                 font-size: 3rem;
             }
             &--text3 {
-                font-size: 0.8rem;
+                font-size: 1rem;
             }
         }
     }

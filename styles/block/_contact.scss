@@ -5,6 +5,14 @@
     &__container {
         width: 40%;
         font-size: 30pt;
+        @include tablet {
+            font-size: 18pt;
+            width: 70%;
+        }
+        @include mobile {
+            font-size: 18pt;
+            width: 70%;
+        }
     }
 }
 
@@ -13,3 +21,7 @@
         font-size: 18pt;
     }
 }
+
+// #coments {
+//     width: 100%;
+// }

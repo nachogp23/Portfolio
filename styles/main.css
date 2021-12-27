@@ -94,6 +94,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .presentation__content {
+    top: 15%;
+  }
   .presentation__content--text1 {
     font-size: 3rem;
   }
@@ -106,20 +109,49 @@
 }
 
 @media screen and (max-width: 479px) {
+  .presentation__content {
+    top: 10%;
+  }
   .presentation__content--text1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .presentation__content--text2 {
     font-size: 3rem;
   }
   .presentation__content--text3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
 .about--text {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .about--img {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about--img {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about--title {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about--title {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
 
 .skills--listItems {
@@ -238,6 +270,20 @@
 .form__container {
   width: 40%;
   font-size: 30pt;
+}
+
+@media screen and (max-width: 767px) {
+  .form__container {
+    font-size: 18pt;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .form__container {
+    font-size: 18pt;
+    width: 70%;
+  }
 }
 
 .btn-primary {

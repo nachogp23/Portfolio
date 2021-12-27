@@ -1,7 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 .about {
     &--text {
-        font-family: 'Ubuntu', sans-serif;
+        font-family: "Ubuntu", sans-serif;
         font-weight: 600;
+    }
+    &--img {
+        @include tablet {
+            text-align: center;
+        }
+        @include mobile {
+            text-align: center;
+        }
+    }
+    &--title {
+        @include tablet {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        @include mobile {
+            text-align: center;
+            margin-top: 2rem;
+        }
     }
 }
