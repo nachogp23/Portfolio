@@ -3,6 +3,8 @@
     &--text {
         font-family: "Ubuntu", sans-serif;
         font-weight: 600;
+        text-align: justify;
+        
     }
     &--img {
         @include tablet {
